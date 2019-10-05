@@ -6,7 +6,7 @@ pyautogui.PAUSE = 1
 pyautogui.FAILSAFE = True
 timeout = time.time() + 75
 
-with open("data.txt", 'r') as dataFile:
+with open("../data.txt", 'r') as dataFile:
     data = dataFile.read()
 
 soup = BeautifulSoup(data, 'html.parser')
